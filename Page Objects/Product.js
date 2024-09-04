@@ -67,7 +67,7 @@ export class Product{
     /**
      * 
      * @param {string} filterOption Enter in the Filter Option Value eg 'az', 'za', 'lohi' or 'hilo'
-     * @param {string} filterTextValue 
+     * @param {string} filterTextValue Enter Filter name as seen on the product page
      */
     async filterSelect(filterOption, filterTextValue){
         //Observe the default filter applied to the product list.

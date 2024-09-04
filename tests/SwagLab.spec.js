@@ -1,7 +1,6 @@
 import {test, expect} from "@playwright/test"
 import { Login } from "../Page Objects/Login"
 import { Product } from "../Page Objects/Product"
-import { Cart } from "../Page Objects/Cart"
 import { Helpers } from "../Page Objects/Helpers"
 
 test('Verify that a valid user can successfully log in with correct credentials',{tag: '@login'},  async ({ page }) => {
